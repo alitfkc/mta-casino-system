@@ -1,0 +1,9 @@
+<meta>
+	<info author ="Meta Script" description = "Meta Casino DJ sistemi"/>
+
+    <script src="ayarlar.lua" type="shared" cache="false"/> 
+    <script src="panel.lua" type="client" cache="false"/>
+    <script src="server.lua" type="server" cache="false"/>
+    <script src="lib.lua" type="client" cache="false"/> 
+    
+</meta>
