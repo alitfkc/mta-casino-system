@@ -1,0 +1,15 @@
+<meta>
+<info author="Meta Script" description="Meta Script Harita" version="1" type="script" />
+
+    <!--Lualar-->
+    <script src="ayarlar.lua" type="shared" cache="false"/>
+    <script src="server.lua" type="server" cache="false"/>
+    <script src="client.lua" type="client" cache="false"/>
+    <script src="lib.lua" type="client" cache="false"/>
+
+    <!--Objeler-->
+    <file src="objeler/object.txd" type="client" cache="false"/>
+    <file src="objeler/object.dff" type="client" cache="false"/>
+    <file src="objeler/object.col" type="client" cache="false"/>
+    <file src="resimler/logo.png" type="client" cache="false"/>
+</meta>
