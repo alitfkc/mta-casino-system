@@ -1,0 +1,8 @@
+<meta>
+	<info author ="Meta Script" description = "Meta Çip Vip Bonus Sistemi"/>
+    <script src="ayarlar.lua" type="shared" cache="false"/> 
+    <script src="client.lua" type="client" cache="false"/>
+    <script src="server.lua" type="server" cache="false"/>
+    <export function="bonus_ver_server" type="server"/>
+    <export function="bonus_ver_client" type="client"/>
+</meta>
