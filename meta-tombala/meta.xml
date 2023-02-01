@@ -1,0 +1,18 @@
+<meta>
+	<info author="Meta Scripts -Beyonder#0711" type="script" name="Tombala"  />
+	<script src="settings.lua" type="shared" />
+
+	<!--maps-->
+	<script src="map/map_c.lua" type="client" />
+	<script src="map/map_s.lua" type="server" />
+	<!--markers-->
+	<script src="marker/marker_c.lua" type="client" />
+	<script src="marker/marker_s.lua" type="server" />
+
+	<!--panel-->
+	<script src="panel/lib.lua" type="client" />
+	<script src="panel/panel.lua" type="client" />
+	<script src="panel/util_c.lua" type="client" />
+	<script src="panel/util_s.lua" type="server" />
+
+</meta>
