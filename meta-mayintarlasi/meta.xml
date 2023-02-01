@@ -1,0 +1,11 @@
+<meta>
+	<info author ="Meta Script" description = "Meta Casino DJ sistemi"/>
+
+    <script src="panel.lua" type="client" cache="false"/>
+    <script src="server.lua" type="server" cache="false"/>
+    <script src="lib.lua" type="client" cache="false"/> 
+    
+    <file src="sesler/patlama.mp3" type="client" />
+    <file src="sesler/basma.mp3" type="client" />
+    <file src="sesler/kazanma.ogg" type="client" />
+</meta>
