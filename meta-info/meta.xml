@@ -1,0 +1,15 @@
+<meta>
+
+	<info author ="Meta Script" description = "Meta Casino İnfo sistemi"/>
+		
+	<!--Üst yazı dosyaları-->
+    <script src="uyari.lua" type="client" cache="false"/>
+    <script src="server.lua" type="server" cache="false"/>
+    <script src="client.lua" type="client" cache="false"/>
+    <file src="dosyalar/icons.ttf" type="client" cache="false"/>
+    <file src="dosyalar/roboto.ttf" type="client" cache="false"/>
+
+    <export function="sendClientMessage" type="client"/>
+	<export function="sendServerMessage" type="server"/>
+
+</meta>
