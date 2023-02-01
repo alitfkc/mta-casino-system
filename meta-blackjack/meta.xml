@@ -1,0 +1,75 @@
+<meta>
+    <info author="Meta Script" type="script" name="Meta Slot" version="1.0.0" />
+	
+    <file src="resimler/panel.png" type="client" />
+
+    <script src="metashared/m_ayarlar.lua" type="shared" cache="false"/>
+    <script src="kullaniciayarlari/ayarlar.lua" type="shared"  cache="false"/>
+    <script src="client/panel.lua" type="client"  cache="false"/>
+    <script src="client/kart_c.lua" type="client"  cache="false"/>
+    <script src="client/client.lua" type="client"  cache="false"/>
+    <script src="server/marker_s.lua" type="server"  cache="false"/>
+    <script src="server/server.lua" type="server"  cache="false"/>
+	<script src="client/lib.lua" type="client" cache="false"/>
+
+
+    <!--KART ARKA YÜZ -->
+    <file src="kart/kart_arka.png" type="client" />
+    <!--SİNEK KARTLARI -->
+    <file src="kart/s_s_2.png" type="client" />
+    <file src="kart/s_s_3.png" type="client" />
+    <file src="kart/s_s_4.png" type="client" />
+    <file src="kart/s_s_5.png" type="client" />
+    <file src="kart/s_s_6.png" type="client" />
+    <file src="kart/s_s_7.png" type="client" />
+    <file src="kart/s_s_8.png" type="client" />
+    <file src="kart/s_s_9.png" type="client" />
+    <file src="kart/s_s_10.png" type="client" />
+    <file src="kart/s_s_a.png" type="client" />
+    <file src="kart/s_s_j.png" type="client" />
+    <file src="kart/s_s_q.png" type="client" />
+    <file src="kart/s_s_k.png" type="client" />
+    <!--MAÇO KARTLARI -->
+    <file src="kart/s_m_2.png" type="client" />
+    <file src="kart/s_m_3.png" type="client" />
+    <file src="kart/s_m_4.png" type="client" />
+    <file src="kart/s_m_5.png" type="client" />
+    <file src="kart/s_m_6.png" type="client" />
+    <file src="kart/s_m_7.png" type="client" />
+    <file src="kart/s_m_8.png" type="client" />
+    <file src="kart/s_m_9.png" type="client" />
+    <file src="kart/s_m_10.png" type="client" />
+    <file src="kart/s_m_a.png" type="client" />
+    <file src="kart/s_m_j.png" type="client" />
+    <file src="kart/s_m_q.png" type="client" />
+    <file src="kart/s_m_k.png" type="client" />
+    <!--KUPA KARTLARI -->
+    <file src="kart/s_k_2.png" type="client" />
+    <file src="kart/s_k_3.png" type="client" />
+    <file src="kart/s_k_4.png" type="client" />
+    <file src="kart/s_k_5.png" type="client" />
+    <file src="kart/s_k_6.png" type="client" />
+    <file src="kart/s_k_7.png" type="client" />
+    <file src="kart/s_k_8.png" type="client" />
+    <file src="kart/s_k_9.png" type="client" />
+    <file src="kart/s_k_10.png" type="client" />
+    <file src="kart/s_k_a.png" type="client" />
+    <file src="kart/s_k_j.png" type="client" />
+    <file src="kart/s_k_q.png" type="client" />
+    <file src="kart/s_k_k.png" type="client" />
+    <!--KARO KARTLARI -->
+    <file src="kart/s_d_2.png" type="client" />
+    <file src="kart/s_d_3.png" type="client" />
+    <file src="kart/s_d_4.png" type="client" />
+    <file src="kart/s_d_5.png" type="client" />
+    <file src="kart/s_d_6.png" type="client" />
+    <file src="kart/s_d_7.png" type="client" />
+    <file src="kart/s_d_8.png" type="client" />
+    <file src="kart/s_d_9.png" type="client" />
+    <file src="kart/s_d_10.png" type="client" />
+    <file src="kart/s_d_a.png" type="client" />
+    <file src="kart/s_d_j.png" type="client" />
+    <file src="kart/s_d_q.png" type="client" />
+    <file src="kart/s_d_k.png" type="client" />
+
+</meta>
