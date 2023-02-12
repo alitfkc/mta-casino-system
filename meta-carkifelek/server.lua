@@ -100,7 +100,7 @@ function quit_or_death()
     end
 end
 
-addEventHandler(""
+addEventHandler("onPlayerWasted",root,quit_or_death)
 function sistem_dondur()
     if not carki_felek_donme_durum then 
         kazanma_aci=math.random(0,360)
