@@ -20,6 +20,7 @@ function gui_click()
     local bahis = guiGetText(butonlar.bahis_edit)
     bahis = tonumber(bahis)
     if type(bahis) == "number" then 
+    if bahis <= 0 then return end
         if bahis <= bet_limit then 
             local player_chip = getElementData(localPlayer,"meta_cip") or 0
             if player_chip >= bahis then 
@@ -32,6 +33,7 @@ function gui_click()
                 sayi3 = tonumber(sayi3)
                 sayi4 = tonumber(sayi4)
                 if type(sayi1) == "number" and type(sayi2) == "number" and type(sayi3) == "number"  and type(sayi4) == "number"  then 
+                    if sayi1 <= 0 or sayi2 <= 0 or sayi3 <= 0 or sayi4 <= 0  then return end
                     if (sayi1 ~= sayi2 and sayi1~=sayi3 and sayi1 ~=sayi4 ) and (sayi2~=sayi3 and sayi2 ~=sayi4) and (sayi3 ~=sayi4)   then 
                         if sayi1 <= 19 and sayi2 <= 19 and sayi3 <= 19 and sayi4 <= 19 then 
                             panel_open_close()
