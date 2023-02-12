@@ -4,6 +4,7 @@ carki_felekrx,carki_felekry,carki_felekrz=90,90,130
 markerx,markery,markerz=1955.61487, 996.49512, 991.85938
 carki_felek_donme_durum=false
 objeler={}
+marker_player = nil
 local marker_durum=false
 local marker_oyuncu_sayisi=0
 local kazanma_aci=0
@@ -52,6 +53,7 @@ function carkifelekmarkergiris(oyuncu)
     if getElementType(oyuncu) =="player" then 
         if not marker_durum and marker_oyuncu_sayisi<=1 then
             marker_durum=true
+            marker_player = oyuncu
             marker_oyuncu_sayisi=marker_oyuncu_sayisi+1
             triggerClientEvent("panel_ac",oyuncu,true)
             setTimer(function()
@@ -72,6 +74,7 @@ function carkifelekmarkercikis(oyuncu)
     if getElementType(oyuncu) =="player" then 
         if marker_durum and marker_oyuncu_sayisi==1 then 
             marker_durum=false
+            marker_player = nil
             marker_oyuncu_sayisi=marker_oyuncu_sayisi-1
             triggerClientEvent("panel_ac",oyuncu,false)
         else
@@ -85,6 +88,19 @@ function sistemden_ayril()
     local oyuncu=source
     setTimer(function() setPedAnimation(oyuncu) end,750,1,oyuncu)
 end
+
+function quit_or_death()
+    if marker_durum then 
+        if source == marker_player then 
+            marker_durum=false
+            marker_player = nil
+            marker_oyuncu_sayisi=marker_oyuncu_sayisi-1
+            triggerClientEvent("panel_ac",oyuncu,false)
+        end
+    end
+end
+
+addEventHandler(""
 function sistem_dondur()
     if not carki_felek_donme_durum then 
         kazanma_aci=math.random(0,360)
@@ -143,4 +159,3 @@ addEvent("carkifelekten_ayril",true)
 addEventHandler("carkifelekten_ayril",root,sistemden_ayril)
 addEvent("carkifelek_dondur",true)
 addEventHandler("carkifelek_dondur",root,sistem_dondur)
-
